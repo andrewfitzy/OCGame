@@ -1,7 +1,29 @@
-##intro
+#Only Connect Letters Game
+The BBC program, Only Connect, has a letters game in the last round where words are presented with the vowels removed; each word relates to one of 5 or 6 categories for that round, each category having 3 or 4 questions.
+
+For instance, if the category were car makers clues may be presented as follows:
+
+    VXHLL
+    Answer: Vauxhall
+    
+    FRD
+    Answer: Ford
+    
+    LP HRM
+    Answer: Alpha Romeo
+
+Then the next category might be TV shows:
+
+    STNDRS
+    Answer: EastEnders
+
+And so on. You'll notice that the third car, Alpha Romeo, hsa a space in the name, the number of spaces in the answer are preserved however they do not appear in the same position as you would expect to find them in the full name.
+
+For details of the motivation behind the project please see my blog post here:
 
 ###node install
 Clone the repo to a location, enter that location and type:
+
     npm install
 
 A load of dependancy files will download and you should see output similar to the following:
@@ -35,8 +57,10 @@ A load of dependancy files will download and you should see output similar to th
     +-- send@0.10.1 (ms@0.6.2, destroy@1.0.3, mime@1.2.11)
 
 ###Running
-From a command line launch the server by typing
+From a command line launch the server by typing:
+
     node app.js
 
-Then navigate to your browser and enter the following URL
+Then navigate to your browser and enter the following URL:
+
     http://localhost:8000
